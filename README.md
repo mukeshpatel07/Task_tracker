@@ -75,13 +75,10 @@ npm start
 ## 📷 Screenshots
 _Add your screenshots here to demonstrate functionality._
 
-## 📂 Project Structure
-```
-task-tracker-app/
-├── client/      # React frontend
-├── server/      # Express backend
-└── README.md
-```
+## Folder Structure
+
+- `frontend/` — React frontend
+- `backend/` — Node.js + Express + MongoDB backend
 
 ## ✅ Future Improvements
 - Add file attachments to tasks
