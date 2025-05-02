@@ -1,0 +1,300 @@
+/* .App {
+  text-align: center;
+} */
+
+/* .nav-ul li{
+  display: inline-block;
+  padding: 1%;
+} */
+
+/* .nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: rgb(17, 26, 80);
+} */
+
+
+
+
+.nav-container {
+  width: 100%;
+  background: #222f3d;
+  display: flex;
+ 
+  /* justify-content: space-evenly; */
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 4px;
+}
+
+.nav-left {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+  margin-left: 750px;
+   /* Pushes it to the right */
+}
+
+.nav-ul li {
+  padding: 8px 12px;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-ul a:hover {
+  color: red;
+}
+
+
+.nav-ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.signup{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.signup h2{
+  color: black;
+  text-decoration: underline;
+  
+} 
+
+.inputBox{
+  display: block;
+  margin: 30px;
+  padding: 7px;
+  width: 30%;
+  margin-left: 35%;
+  border: 1px solid #1aa3c9;
+  border-radius: 0.5rem;
+}
+.inputBox+span{
+  display: block;
+  font-size: 14px;
+  color: red;
+  position: relative;
+  top:-20px;
+  left: -70px;
+}
+
+.btn{
+  background-color: #13813a;
+  padding: 9px;
+  border-radius: 0.5rem;
+  width: 10%;
+  border: 0;
+  cursor: pointer;
+}
+
+.login{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.login h2{
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+
+
+.profile{
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.logo{
+  width: 50px;
+  float: left;
+  border-radius: 30px;
+  margin-top: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.add-product{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.add-product h2{
+  color: black;
+  text-decoration: underline;
+}
+
+
+.product-list{
+  text-align: center;
+}
+
+.product-list h2{
+  color: black;
+  text-decoration: underline;
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0; 
+}
+
+.delete{
+  background-color: red;
+  color: white;
+  border: 2px solid red ;
+}
+
+
+.search-input{
+  padding: 7px;
+  margin-top: 20px;
+  border: 2px solid #1aa3c9;
+  border-radius: 0.5rem;
+  width: 600px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+
+.footer{
+  background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.foot-panel2{
+  background-color: #222f3d;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+ul{
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+ul a{
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  color: #dddddd;
+  
+}
+
+
+.view {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #13813a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+ 
+}
+
+
+.new-project{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.project-btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #13813a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+
+.inputLabel {
+  display: block;
+  margin: 8px 0 2px 0;
+  padding-left: 0; 
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
